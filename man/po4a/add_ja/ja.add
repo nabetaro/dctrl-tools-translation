@@ -1,0 +1,9 @@
+PO4A-HEADER:mode=after;position=^\.SH 関連項目;beginboundary=^\.SH
+.SH 翻訳
+倉澤 望 <nabetaro@debian.or.jp>, 2012
+
+翻訳の誤りは翻訳者か 
+.nh
+<\fIdebian\-l10n\-japanese@lists.debian.org\fR>
+.hy
+メーリングリストにメールでお知らせください。

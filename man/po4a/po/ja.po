@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2012-05-22 15:42+0900\n"
-"PO-Revision-Date: 2012-05-22 15:59+0900\n"
+"PO-Revision-Date: 2012-06-11 19:23+0900\n"
 "Last-Translator: KURASAWA Nozomu <nabetaro@debian.or.jp>\n"
 "Language-Team: Japanese\n"
 "Language: ja\n"
@@ -42,19 +42,19 @@ msgstr "Debian プロジェクト"
 msgid "Debian user's manual"
 msgstr "Debian ユーザーマニュアル"
 
-#.  Copyright (C) 2005, 2010  Antti-Juhani Kaijanaho <ajk@debian.org>
-#.       This program is free software; you can redistribute it and/or modify
-#.       it under the terms of the GNU General Public License as published by
-#.       the Free Software Foundation; either version 2 of the License, or
-#.       (at your option) any later version.
-#.       This program is distributed in the hope that it will be useful,
-#.       but WITHOUT ANY WARRANTY; without even the implied warranty of
-#.       MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#.       GNU General Public License for more details. 
-#.       You should have received a copy of the GNU General Public License
-#.       along with this program; see the file COPYING.  If not, write to
-#.       the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
-#.       Boston, MA 02111-1307, USA.
+#. Copyright (C) 2005, 2010  Antti-Juhani Kaijanaho <ajk@debian.org>
+#. This program is free software; you can redistribute it and/or modify
+#. it under the terms of the GNU General Public License as published by
+#. the Free Software Foundation; either version 2 of the License, or
+#. (at your option) any later version.
+#. This program is distributed in the hope that it will be useful,
+#. but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#. GNU General Public License for more details.
+#. You should have received a copy of the GNU General Public License
+#. along with this program; see the file COPYING.  If not, write to
+#. the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+#. Boston, MA 02111-1307, USA.
 #. type: SH
 #: man/grep-dctrl.1.cp:19 man/join-dctrl.1:17 man/sort-dctrl.1:17
 #: man/sync-available.8:17 man/tbl-dctrl.1:17
@@ -94,6 +94,8 @@ msgid ""
 "where I<command> is one of B<grep-dctrl>, B<grep-status>, B<grep-available>, "
 "B<grep-aptavail> and B<grep-debtags>."
 msgstr ""
+"I<command> は B<grep-dctrl>, B<grep-status>, B<grep-available>, B<grep-"
+"aptavail>, B<grep-debtags> のいずれかです。"
 
 #. type: SH
 #: man/grep-dctrl.1.cp:36 man/join-dctrl.1:32 man/sort-dctrl.1:28
@@ -416,8 +418,9 @@ msgstr "B<-!>, B<--not>, B<!>"
 
 #. type: Plain text
 #: man/grep-dctrl.1.cp:244
+#, fuzzy
 msgid "Match if the following filter does B<not> match."
-msgstr ""
+msgstr "Aspell のバージョンがフィルタの要求と合っていません。"
 
 #. type: IP
 #: man/grep-dctrl.1.cp:244
@@ -781,7 +784,7 @@ msgstr "% grep-available -F Package foo\n"
 #. type: Plain text
 #: man/grep-dctrl.1.cp:412 man/grep-dctrl.1.cp:422
 msgid "or"
-msgstr ""
+msgstr "または"
 
 #. type: Plain text
 #: man/grep-dctrl.1.cp:414
@@ -999,7 +1002,7 @@ msgstr ""
 #: man/grep-dctrl.1.cp:526
 #, no-wrap
 msgid "DIAGNOSTICS"
-msgstr ""
+msgstr "診断"
 
 #. type: Plain text
 #: man/grep-dctrl.1.cp:542
@@ -1023,18 +1026,18 @@ msgstr ""
 #: man/grep-dctrl.1.cp:547
 #, no-wrap
 msgid "B<A pattern is mandatory>"
-msgstr ""
+msgstr "B<パターンが必須です>"
 
 #. type: Plain text
 #: man/grep-dctrl.1.cp:549
 msgid "You must specify a pattern to be searched for."
-msgstr ""
+msgstr "検索するパターンを指定しなくてはなりません。"
 
 #. type: IP
 #: man/grep-dctrl.1.cp:549
 #, no-wrap
 msgid "B<malformed filter>"
-msgstr ""
+msgstr "B<フィルタが不正です>"
 
 #. type: Plain text
 #: man/grep-dctrl.1.cp:551
@@ -1045,7 +1048,7 @@ msgstr ""
 #: man/grep-dctrl.1.cp:551
 #, no-wrap
 msgid "B<cannot find enough memory>"
-msgstr ""
+msgstr "B<十分なメモリがありません>"
 
 #. type: Plain text
 #: man/grep-dctrl.1.cp:554
@@ -1058,7 +1061,7 @@ msgstr ""
 #: man/grep-dctrl.1.cp:554
 #, no-wrap
 msgid "B<cannot suppress field names when showing whole paragraphs>"
-msgstr ""
+msgstr "B<パラグラフ全体を表示する際にフィールド名を表示しないようにできません>"
 
 #. type: Plain text
 #: man/grep-dctrl.1.cp:564
@@ -1072,7 +1075,7 @@ msgstr ""
 #: man/grep-dctrl.1.cp:564
 #, no-wrap
 msgid "B<inconsistent modifiers of simple filters>"
-msgstr ""
+msgstr "B<同一のフィルタに与える修飾子が矛盾しています>"
 
 #. type: Plain text
 #: man/grep-dctrl.1.cp:570
@@ -1085,7 +1088,7 @@ msgstr ""
 #: man/grep-dctrl.1.cp:570
 #, no-wrap
 msgid "B<missing ')' in command line>"
-msgstr ""
+msgstr "B<コマンドラインに ')' が含まれていません>"
 
 #. type: Plain text
 #: man/grep-dctrl.1.cp:573
@@ -1096,18 +1099,18 @@ msgstr ""
 #: man/grep-dctrl.1.cp:573
 #, no-wrap
 msgid "B<no such log level>"
-msgstr ""
+msgstr "B<'○○' というログレベルはありません>"
 
 #. type: Plain text
 #: man/grep-dctrl.1.cp:577
 msgid "The argument to B<-l> was invalid."
-msgstr ""
+msgstr "B<-l> への引数が無効です。"
 
 #. type: IP
 #: man/grep-dctrl.1.cp:577
 #, no-wrap
 msgid "B<too many file names>"
-msgstr ""
+msgstr "B<ファイル名が多すぎます>"
 
 #. type: Plain text
 #: man/grep-dctrl.1.cp:580
@@ -1120,7 +1123,7 @@ msgstr ""
 #: man/grep-dctrl.1.cp:580
 #, no-wrap
 msgid "B<too many output fields>"
-msgstr ""
+msgstr "B<出力フィールドが多すぎます>"
 
 #. type: Plain text
 #: man/grep-dctrl.1.cp:585
@@ -1133,7 +1136,7 @@ msgstr ""
 #: man/grep-dctrl.1.cp:585
 #, no-wrap
 msgid "B<unexpected ')' in command line>"
-msgstr ""
+msgstr "B<コマンドラインに想定外の ')' が含まれています>"
 
 #. type: Plain text
 #: man/grep-dctrl.1.cp:588
@@ -1156,8 +1159,9 @@ msgstr "I</var/lib/dpkg/available>"
 
 #. type: Plain text
 #: man/grep-dctrl.1.cp:592
+#, fuzzy
 msgid "The default input file of B<grep-available>."
-msgstr ""
+msgstr "デフォルトのファイルセーバーは無効です。"
 
 #. type: IP
 #: man/grep-dctrl.1.cp:592
@@ -1280,8 +1284,9 @@ msgstr "B<-1 >I<field>, B<--1st-join-field=>I<field>"
 
 #. type: Plain text
 #: man/join-dctrl.1:65
+#, fuzzy
 msgid "Specify the join I<field> of the first input file."
-msgstr ""
+msgstr "結合に使う最初のファイル由来のフィールドを指定します"
 
 #. type: IP
 #: man/join-dctrl.1:65
@@ -1291,8 +1296,9 @@ msgstr "B<-2 >I<field>, B<--2nd-join-field=>I<field>"
 
 #. type: Plain text
 #: man/join-dctrl.1:69
+#, fuzzy
 msgid "Specify the join I<field> of the second input file."
-msgstr ""
+msgstr "結合に使う 2 つ目のファイル由来のフィールドを指定します"
 
 #. type: IP
 #: man/join-dctrl.1:69
@@ -1386,7 +1392,7 @@ msgstr ""
 #: man/join-dctrl.1:152 man/tbl-dctrl.1:130
 #, no-wrap
 msgid "OPERANDS"
-msgstr ""
+msgstr "オペランド"
 
 #. type: Plain text
 #: man/join-dctrl.1:156
@@ -1409,7 +1415,7 @@ msgstr ""
 #: man/join-dctrl.1:162 man/tbl-dctrl.1:143
 #, no-wrap
 msgid "STDIN"
-msgstr ""
+msgstr "標準入力"
 
 #. type: Plain text
 #: man/join-dctrl.1:167 man/tbl-dctrl.1:148
@@ -1422,7 +1428,7 @@ msgstr ""
 #: man/join-dctrl.1:167 man/tbl-dctrl.1:148
 #, no-wrap
 msgid "INPUT FILES"
-msgstr ""
+msgstr "入力ファイル"
 
 #. type: Plain text
 #: man/join-dctrl.1:171
@@ -1493,7 +1499,7 @@ msgstr ""
 #: man/join-dctrl.1:195 man/tbl-dctrl.1:177
 #, no-wrap
 msgid "ASYNCHRONOUS EVENTS"
-msgstr ""
+msgstr "非同期イベント"
 
 #. type: Plain text
 #: man/join-dctrl.1:197 man/tbl-dctrl.1:179
@@ -1504,7 +1510,7 @@ msgstr ""
 #: man/join-dctrl.1:197 man/tbl-dctrl.1:179
 #, no-wrap
 msgid "STDOUT"
-msgstr ""
+msgstr "標準出力"
 
 #. type: Plain text
 #: man/join-dctrl.1:199 man/tbl-dctrl.1:181
@@ -1529,18 +1535,18 @@ msgstr ""
 #: man/join-dctrl.1:207 man/tbl-dctrl.1:191
 #, no-wrap
 msgid "OUTPUT FILES"
-msgstr ""
+msgstr "出力ファイル"
 
 #. type: Plain text
 #: man/join-dctrl.1:209 man/tbl-dctrl.1:193
 msgid "There are no output files."
-msgstr ""
+msgstr "出力するファイルはありません。"
 
 #. type: SH
 #: man/join-dctrl.1:209 man/sync-available.8:42 man/tbl-dctrl.1:193
 #, no-wrap
 msgid "EXIT STATUS"
-msgstr ""
+msgstr "終了ステータス"
 
 #. type: Plain text
 #: man/join-dctrl.1:214 man/tbl-dctrl.1:198
@@ -1551,9 +1557,9 @@ msgstr ""
 
 #. type: SH
 #: man/join-dctrl.1:214 man/tbl-dctrl.1:198
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "CONSEQUENCES OF ERRORS"
-msgstr ""
+msgstr "複数のエラー\n"
 
 #. type: Plain text
 #: man/join-dctrl.1:218 man/tbl-dctrl.1:202
@@ -1612,7 +1618,7 @@ msgstr ""
 #. type: Plain text
 #: man/join-dctrl.1:248
 msgid "B<grep-dctrl>(1), B<sort-dctrl>(1), B<tbl-dctrl>(1)"
-msgstr ""
+msgstr "B<grep-dctrl>(1), B<sort-dctrl>(1), B<tbl-dctrl>(1)"
 
 #. type: TH
 #: man/sort-dctrl.1:1
@@ -2137,6 +2143,8 @@ msgid ""
 "The B<tbl-dctrl> program and this manual page were written by Antti-Juhani "
 "Kaijanaho."
 msgstr ""
+"B<tbl-dctrl> プログラムとこのマニュアルページは Antti-Juhani Kaijanaho が作成"
+"しました。"
 
 #. type: Plain text
 #: man/tbl-dctrl.1:222
